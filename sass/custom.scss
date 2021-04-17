@@ -1,0 +1,26 @@
+$font-family-sans-serif: "Lato", sans-serif;
+
+$theme-colors: (
+  "index": #1b2936,
+  // testimonials_grid_section
+  "violeta-testimonial": #8a00c8,
+  "gray-testimonial": #4a506c,
+  "white-testimonial": #ffffff,
+  "blue-testimonial": #191d2d,
+  "testimonial": #edf2f8,
+  //
+);
+// testimonials_grid_section
+@media screen and (min-width: 992px) {
+  .alto-100 {
+    height: 100vh;
+  }
+}
+.fondo {
+  background-image: url("/public/bootstrap/testimonials_grid_section/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 85% top;
+}
+//
+
+@import "../node_modules/bootstrap/scss/bootstrap";

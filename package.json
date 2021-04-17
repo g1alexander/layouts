@@ -1,0 +1,19 @@
+{
+  "name": "layouts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "purgecss --css sass/custom.css --content ./public/bootstrap/**/**.html --content ./public/index.html --content ./public/bootstrap/index.html -o ./public/css/bootstrap.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.2.5",
+    "bootstrap": "^5.0.0-beta3",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.1"
+  }
+}
