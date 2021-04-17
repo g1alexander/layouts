@@ -1,1 +1,1 @@
-## Layouts - HTML JS SASS Tailwind CSS
+## Layouts - HTML JS SCSS Tailwind CSS
