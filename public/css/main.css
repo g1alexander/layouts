@@ -557,7 +557,308 @@ video {
 	--tw-ring-offset-shadow: 0 0 #0000;
 	--tw-ring-shadow: 0 0 #0000;
 }
+.container {
+	width: 100%;
+}
+@media (min-width: 320px) {
+
+	.container {
+		max-width: 320px;
+	}
+}
+@media (min-width: 640px) {
+
+	.container {
+		max-width: 640px;
+	}
+}
+@media (min-width: 768px) {
+
+	.container {
+		max-width: 768px;
+	}
+}
+@media (min-width: 1024px) {
+
+	.container {
+		max-width: 1024px;
+	}
+}
+@media (min-width: 1280px) {
+
+	.container {
+		max-width: 1280px;
+	}
+}
+@media (min-width: 1536px) {
+
+	.container {
+		max-width: 1536px;
+	}
+}
+.fixed {
+	position: fixed;
+}
+.top-0 {
+	top: 0px;
+}
+.-left-7 {
+	left: -1.75rem;
+}
+.bottom-0 {
+	bottom: 0px;
+}
+.-right-7 {
+	right: -1.75rem;
+}
+.z-40 {
+	z-index: 40;
+}
+.z-50 {
+	z-index: 50;
+}
+.m-0 {
+	margin: 0px;
+}
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+.my-4 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.mx-2 {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+.mr-3 {
+	margin-right: 0.75rem;
+}
+.mt-3 {
+	margin-top: 0.75rem;
+}
+.mb-5 {
+	margin-bottom: 1.25rem;
+}
+.mb-3 {
+	margin-bottom: 0.75rem;
+}
+.grid {
+	display: grid;
+}
+.flex {
+	display: flex;
+}
+.h-auto {
+	height: auto;
+}
+.h-screen {
+	height: 100vh;
+}
+.h-full {
+	height: 100%;
+}
+.w-5\/6 {
+	width: 83.333333%;
+}
+.w-full {
+	width: 100%;
+}
+.justify-center {
+	justify-content: center;
+}
+.gap-4 {
+	gap: 1rem;
+}
+.rounded {
+	border-radius: 0.25rem;
+}
+.border {
+	border-width: 1px;
+}
 .bg-gray-800 {
 	--tw-bg-opacity: 1;
 	background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+}
+.bg-white {
+	--tw-bg-opacity: 1;
+	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+.bg-red-600 {
+	--tw-bg-opacity: 1;
+	background-color: rgba(220, 38, 38, var(--tw-bg-opacity));
+}
+.p-3 {
+	padding: 0.75rem;
+}
+.p-4 {
+	padding: 1rem;
+}
+.p-2 {
+	padding: 0.5rem;
+}
+.p-5 {
+	padding: 1.25rem;
+}
+.px-3 {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+}
+.px-12 {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+.py-5 {
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+}
+.pb-5 {
+	padding-bottom: 1.25rem;
+}
+.pb-3 {
+	padding-bottom: 0.75rem;
+}
+.pb-2 {
+	padding-bottom: 0.5rem;
+}
+.text-center {
+	text-align: center;
+}
+.text-lg {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+}
+.text-xl {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+}
+.text-2xl {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.font-normal {
+	font-weight: 400;
+}
+.font-semibold {
+	font-weight: 600;
+}
+.font-bold {
+	font-weight: 700;
+}
+.text-white {
+	--tw-text-opacity: 1;
+	color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.underline {
+	text-decoration: underline;
+}
+.shadow-sm {
+	--tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.btn {
+	border-radius: 0.25rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-weight: 700;
+	--tw-text-opacity: 1;
+	color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.hover\:bg-gray-900:hover {
+	--tw-bg-opacity: 1;
+	background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+}
+
+.hover\:bg-red-700:hover {
+	--tw-bg-opacity: 1;
+	background-color: rgba(185, 28, 28, var(--tw-bg-opacity));
+}
+
+@media (min-width: 640px) {
+
+	.sm\:grid-cols-1 {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
+}
+
+@media (min-width: 768px) {
+
+	.md\:grid-cols-2 {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (min-width: 1024px) {
+
+	.lg\:fixed {
+		position: fixed;
+	}
+
+	.lg\:flex {
+		display: flex;
+	}
+
+	.lg\:block {
+		display: block;
+	}
+
+	.lg\:w-1\/2 {
+		width: 50%;
+	}
+
+	.lg\:w-4\/6 {
+		width: 66.666667%;
+	}
+
+	.lg\:grid-cols-3 {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
+	.lg\:items-center {
+		align-items: center;
+	}
+
+	.lg\:justify-center {
+		justify-content: center;
+	}
+
+	.lg\:pr-0 {
+		padding-right: 0px;
+	}
+
+	.lg\:pb-0 {
+		padding-bottom: 0px;
+	}
+
+	.lg\:text-left {
+		text-align: left;
+	}
+}
+
+@media (min-width: 320px) {
+
+	.xsm\:sticky {
+		position: sticky;
+	}
+
+	.xsm\:inline {
+		display: inline;
+	}
+
+	.xsm\:pr-4 {
+		padding-right: 1rem;
+	}
+
+	.xsm\:pb-20 {
+		padding-bottom: 5rem;
+	}
+
+	.xsm\:text-center {
+		text-align: center;
+	}
 }

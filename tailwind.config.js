@@ -2,7 +2,11 @@ module.exports = {
   purge: ["./public/**/*.html"],
   darkMode: false, //or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        xsm: "320px",
+      },
+    },
   },
   variants: {
     extend: {},
@@ -10,6 +14,4 @@ module.exports = {
   plugins: [],
 };
 
-// "build:css": "postcss ./src/tailwind.css -o ./public/css/main.css",
-// "build": "NODE_ENV=production postcss ./src/tailwind.css -o ./public/css/main.css",
-// "dev": "nodemon -x npm run build:css -w src/tailwind.css -w tailwind.config.js -w public/index.html"
+//    "bootstrap": "purgecss --css sass/custom.css --content ./public/bootstrap/**/**.html --content ./public/index.html --content ./public/bootstrap/index.html -o ./public/css/bootstrap.css"
