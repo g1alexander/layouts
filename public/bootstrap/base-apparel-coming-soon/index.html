@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <title>Base Apparel</title>
+  </head>
+  <body>
+    <main class="container-fluid px-0 fondo-base-apparel overflow-hidden">
+      <div id="main" class="alto-100 container-base-apparel">
+        <section class="logo-base-apparel p-lg-5 p-3 px-lg-10">
+          <img src="images/logo.svg" alt="logo" />
+        </section>
+
+        <section class="photo-base-apparel">
+          <img
+            src="images/hero-desktop.jpg"
+            class="w-100"
+            id="hero"
+            alt="hero-desktop"
+          />
+        </section>
+
+        <section
+          class="text-base-apparel text-center text-lg-start p-lg-5 py-3 px-lg-10"
+        >
+          <div class="h-100 d-flex flex-column justify-content-center">
+            <div class="text-uppercase text-dark-grayish-red">
+              <h1 class="text-desaturated-red display-3 my-0">w e ' r e</h1>
+              <h1 class="display-2 my-0">c o m i n g</h1>
+              <h1 class="display-2 my-0">s o o n</h1>
+            </div>
+            <p id="parrafo" class="text-desaturated-red py-4 w-80 px-3 px-lg-0">
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+            <form action="#" id="form" class="position-relative mb-5 mb-lg-0">
+              <input
+                id="input-base"
+                type="text"
+                class="p-2 px-2 rounded-pill w-75 input-base-apparel"
+                name="email"
+                placeholder="Email Address"
+              />
+              <span class="d-none position-absolute pt-2"
+                ><img src="images/icon-error.svg" alt="error"
+              /></span>
+              <button
+                type="submit"
+                name="submit"
+                class="position-absolute top-0 submit-base-apparel rounded-pill p-2 px-3"
+              >
+                <img src="images/icon-arrow.svg" alt="arrow" />
+              </button>
+              <span class="d-none d-block p-2 text-soft-red"
+                >Please provide a valid email</span
+              >
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <span class="start-50 start-60 start-70"></span>
+    <script src="js/main.js"></script>
+  </body>
+</html>
